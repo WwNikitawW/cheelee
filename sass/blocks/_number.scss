@@ -1,0 +1,64 @@
+.number {
+    padding-top: 100px;
+    margin: 0 auto;
+    width: 1123px;
+    height: 1165px;
+    &__gritCont {
+        display: grid;
+        grid-template-columns: 348px 250px 300px;
+        grid-template-rows: repeat(3, minmax(205px, auto));
+        column-gap: 100px;
+        grid-template-areas: 
+        "one two three"
+        "four four three"
+        "four four five"
+        "four four six";
+    }
+    &__gritElement {
+        &_num {
+            font-size: 100px;
+            font-weight: 900;
+            text-align: left;
+            color: #7156FD33;
+            opacity: 0.8;
+        }
+        &_title {
+            font-size: 26px;
+            font-weight: 700;
+            line-height: 38px;
+            color: #fcfcfd;
+            span {
+                color: $color-neon;
+            }
+        }
+        &_subtitle {
+            margin-top: 10px;
+            font-size: 18px;
+            font-weight: 400;
+            line-height: 33px;
+            color: #fcfcfd;
+            span {
+                font-weight: 700;
+            }
+        }
+    }
+}
+
+#nameGritOne {
+    grid-area: one;
+}
+#nameGritTwo {
+    grid-area: two;
+}
+#nameGritThree {
+    grid-area: three;
+}
+#nameGritFour {
+    grid-area: four;
+}
+#nameGritFive {
+    grid-area: five;
+}
+#nameGritSix {
+    grid-area: six;
+}

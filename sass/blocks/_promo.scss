@@ -1,0 +1,78 @@
+.promo {
+    width: 1512px;
+    height: 907px;
+    background: url('../img/frame1.png') no-repeat 50%/cover;
+    padding-top: 98px;
+    &__title {
+        margin-top: 190px;
+        width: 347px;
+        font-size: 56px;
+        font-weight: 900;
+        line-height: 68px;
+        text-align: left;
+        color: #fcfcfc
+    }
+    span {
+        color: $color-neon;
+    }
+    &__subtitle {
+        font-size: 26px;
+        font-weight: 700;
+        line-height: 38px;
+        text-align: left;
+        color: #fcfcfc
+    }
+    &__block {
+        margin-top: 200px;
+        &_text {
+            margin-top: 10px;
+            font-size: 20px;
+            font-weight: 700;
+            line-height: 28px;
+            text-align: left;
+            a {
+                color: #fff;
+                text-decoration: none;
+            }
+        }
+        &_img {
+            animation: heartbeat 1.5s ease infinite;
+        }
+    }
+}
+
+aside {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    right: 100px;
+    top: 300px;
+    a {
+        margin-top: 20px;
+    }
+}
+.animet1 {
+    animation: heartbeat 1.5s ease infinite;
+}
+.animet2 {
+    animation: heartbeat 1.5s ease infinite;
+    animation-delay: 1.5s;
+}
+.animet3 {
+    animation: heartbeat 1.5s ease infinite;
+    animation-delay: 3s;
+}
+.animet4 {
+    animation: heartbeat 1.5s ease infinite;
+    animation-delay: 4.5s;
+}
+.animet5 {
+    animation: heartbeat 1.5s ease infinite;
+    animation-delay: 6s;
+}
+.animet6 {
+    animation: heartbeat 1.5s ease infinite;
+    animation-delay: 7.5s;
+}

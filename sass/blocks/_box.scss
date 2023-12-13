@@ -1,0 +1,25 @@
+.box {
+    padding-top: 100px;
+    margin: 0 auto;
+    width: 1123px;
+    height: 306px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    &__title {
+        font-size: 72px;
+        font-weight: 900;
+        line-height: 88px;
+        color: #fcfcfd;
+        span {
+            color: $color-neon;
+        }
+    }
+    &__subtitle {
+        width: 430px;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 33px;
+        color: #fcfcfd;
+    }
+}

@@ -1,0 +1,106 @@
+.header {
+    min-height: 98px;
+    nav {
+        top: -1px;
+        padding: 10px 0;
+        background-color: #140132;
+	    position: fixed;
+	    width: 100%;
+        z-index: 100;
+    }
+    &__conteiner {
+        margin: 0 auto;
+        width: 1352px;
+        min-height: 98px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__logo {
+        width: 92px;
+        height: 58px;
+    }
+    &__link {
+        &_ul {
+            display: flex;
+            flex-direction: row;
+        }
+        &_li {
+            list-style-type: none;
+            &-grey {
+                text-decoration: none;
+                margin-right: 36px;
+                font-size: 16px;
+                font-weight: 400;
+                color: #5E636E;
+            }
+            &-neon {
+                text-decoration: none;
+                font-size: 16px;
+                font-weight: 400;
+                color: $color-neon;
+            }
+        }
+    }
+    &__info {
+        display: flex;
+        width: 456px;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        &_img {
+            width: 30px;
+            height: 30px;
+            margin-right: 2px;
+        }
+        &_text {
+            font-size: 8px;
+            font-weight: 400;
+            color: #E5F7FF;
+        }
+        &_check {
+            font-size: 16px;
+            font-weight: 700;
+            color: #fff;
+        }
+        &_blocks {
+            display: flex;
+            flex-direction: row;
+        }
+        &_logo2 {
+             width: 176px;
+            height: 58px;
+        }
+        &_en {
+            position: relative;
+            font-size: 16px;
+            font-weight: 400;
+            color: #5E636E;
+            &::before {
+                content: '';
+                position: absolute;
+                border-style: solid;
+                border-width: 5px 5px 5px 0;
+                border-color: transparent #5E636E transparent transparent;
+                left: 30px;
+                top: 5px;
+                transform: rotate(-90deg);
+                cursor: pointer;
+            }
+        }
+    }
+}
+.beforeNeon {
+    position: relative;
+    &::before {
+        content: '';
+        position: absolute;
+        border-style: solid;
+        border-width: 4px 7px 4px 0;
+        border-color: transparent $color-neon transparent transparent;
+        left: 55px;
+        top: 5px;
+        transform: rotate(90deg);
+        cursor: pointer;
+    }
+}

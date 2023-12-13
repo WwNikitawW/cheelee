@@ -1,0 +1,55 @@
+.mission {
+    &__conteiner {
+        margin: 0 auto;
+        width: 1120px;
+        height: 585px;
+    }
+    &__title {
+        font-size: 72px;
+        font-weight: 900;
+        color: #fcfcfd;
+        span {
+            color: $color-neon;
+        }
+    }
+    &__block {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    &__text {
+        margin-left: 10px;
+        margin-top: 40px;
+        width: 549px;
+        height: 114px;
+        font-size: 26px;
+        font-weight: 400;
+        line-height: 38px;
+        color: #fcfcfd;
+        span {
+            font-weight: 700;
+        }
+    }
+    &__subtitle {
+        margin-top: 40px;
+        font-size: 26px;
+        font-weight: 700;
+        color: #fff;
+        span {
+            color: $color-neon;
+        }
+    }
+    &__subtext {
+        margin-left: 10px;
+        margin-top: 40px;
+        width: 549px;
+        height: 100px;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 33px;
+        color: #fcfcfd;
+        span {
+            font-weight: 700;
+        }
+    }
+}

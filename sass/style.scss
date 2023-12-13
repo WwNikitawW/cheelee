@@ -1,0 +1,25 @@
+@import 'base/animation';
+@import 'base/variables';
+
+* {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #140132;
+}
+
+.conteiner {
+    width: 1350px;
+    margin: 0 auto;
+}
+
+@import 'blocks/header';
+@import 'blocks/promo';
+@import 'blocks/mission';
+@import 'blocks/number';
+@import 'blocks/box';
+@import 'blocks/substrate';
+@import 'blocks/lastBlock';

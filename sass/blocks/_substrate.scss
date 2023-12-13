@@ -1,0 +1,48 @@
+.substrate {
+    position: relative;
+    margin: 0 auto;
+    margin-top: 100px;
+    padding: 0 100px;
+    width: 1354px;
+    height: 187px;
+    background: linear-gradient(180deg, rgba(113, 86, 251, 0.2) 0%, rgba(255, 13, 255, 0.2) 100%);
+    border-radius: 50px;
+    border: 1px solid #7156FB;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    &__title {
+        position: relative;
+        font-size: 26px;
+        font-weight: 700;
+        line-height: 38px;
+        color: #fcfcfd;
+        span {
+            color: $color-neon;
+        }
+    }
+    &__button {
+        width: 251px;
+        height: 80px;
+        padding: 28px 40px 28px 40px;
+        border-radius: 40px;
+        background: #7156FB;
+        border: none;
+        font-size: 20px;
+        font-weight: 700;
+        color: #fcfcfd;
+    }
+
+    &__arroweTop {
+        position: absolute;
+        top: -10px;
+        left: 100px;
+    }
+    &__arroweBottom {
+        position: absolute;
+        bottom: -10px;
+        rotate: 180deg;
+        right: 100px;
+        overflow: hidden;
+    }
+}
